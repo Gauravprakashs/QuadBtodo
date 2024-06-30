@@ -9,9 +9,11 @@ const Header = () => {
         <AppBar position="static" className="App-header">
             <Toolbar>
                 <Box sx={{ flexGrow: 1 }}>
-                    <Typography variant="h6" component="div">
+                    <div className='TypoContainer'>
+                    <Typography  variant="h6" component="div">
                          To-Do LIST
                     </Typography>
+                    </div>
                 </Box>
                 
             </Toolbar>

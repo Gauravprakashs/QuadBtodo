@@ -4,6 +4,11 @@
   background: linear-gradient(209deg, rgb(255, 127, 56) 52.01%, rgb(255, 196, 108) 100.00%);
   padding: 50px;
 }
+.TypoContainer
+{
+  color: bisque;
+}
+
 
 
 .App {
@@ -84,7 +89,7 @@ body {
 
 .todo_button {
   padding: 10px 20px;
-  background: linear-gradient(135deg, #61dafb, #21a1f1);
+  background: linear-gradient(132deg, rgb(30, 144, 255) 0.00%, rgb(138, 43, 226) 100.00%);
   color: white;
   border: none;
   border-radius: 5px;
