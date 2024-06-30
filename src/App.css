@@ -1,10 +1,17 @@
+.container{
+  background-color: burlywood;
+  border-radius: 25px;
+  background: linear-gradient(209deg, rgb(255, 127, 56) 52.01%, rgb(255, 196, 108) 100.00%);
+  padding: 50px;
+}
+
+
 .App {
   text-align: center;
-  background-color: #f0f2f5;
+ 
   padding: 20px;
   min-height: 100vh;
 }
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -20,8 +27,6 @@
 .App-logo:hover {
   transform: scale(1.1);
 }
-
-
 
 @keyframes App-logo-spin {
   from {
@@ -46,11 +51,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: background 0.3s ease;
+  transition: background 0.3s ease, box-shadow 0.3s ease;
 }
+body {
+  background-color: peach !important; /* Set background color to peach with !important */
+}
+
 
 .todo_item:hover {
   background: #f8f9fa;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 .todo_items_left {
@@ -74,14 +84,14 @@
 
 .todo_button {
   padding: 10px 20px;
-  background-color: #61dafb;
+  background: linear-gradient(135deg, #61dafb, #21a1f1);
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background 0.3s ease;
 }
 
 .todo_button:hover {
-  background-color: #21a1f1;
+  background: linear-gradient(135deg, #21a1f1, #61dafb);
 }

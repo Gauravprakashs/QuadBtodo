@@ -10,7 +10,7 @@ const Header = () => {
             <Toolbar>
                 <Box sx={{ flexGrow: 1 }}>
                     <Typography variant="h6" component="div">
-                        My To-Do List
+                         To-Do LIST
                     </Typography>
                 </Box>
                 

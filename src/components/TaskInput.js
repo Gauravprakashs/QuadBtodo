@@ -25,7 +25,7 @@ const TaskInput = () => {
                 sx={{ mr: 2, flex: 1 }}
             />
             <Button variant="contained" color="primary" onClick={handleAddTask}>
-                Add Task
+                Add
             </Button>
         </Box>
     );
